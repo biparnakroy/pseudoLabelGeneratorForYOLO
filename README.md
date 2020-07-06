@@ -161,6 +161,7 @@ bag:    48%	(left_x:  597   top_y:  212   width:   20   height:   25)
 
 ```
 - Deleting reduntant lines
+
 Now the first 8 lines of all these text files are not required so we have to delete them by running the following commands:
 
 ```
