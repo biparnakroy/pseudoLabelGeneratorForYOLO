@@ -64,9 +64,9 @@ The ```train.txt``` and ```text.txt``` contains the the paths of images for trai
 The ```backup= ../new_weights``` is basically to store the checkpoints of the weights generated on further traing. At this stage the new_weights directory should be empty. **(even if you have darknet prebuilt then set the backup path to ../new_weights)**
 
 
-## Configuring pretrained weights
+## Configuring pretrained weights and cfg files
 
-Put the pretrained yolo weights inside ```weights``` directory.
+Put the pretrained yolo weights inside ```weights``` directory and yolo config files in ```cfg``` directory.
 
 ## Gathering images for the new Dataset
 The particular use case suggests that we create a custom dataset. This can be done by either mass dowloading images from internet or by slicing frames from video files.
