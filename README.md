@@ -39,12 +39,15 @@ If you already have darknet built in your system _(which is mostlikey the case b
 
 However if dont't have darknet built in your system then ```cd in to the darknet directory``` and build darknet following [AlexyAB's guide](https://github.com/AlexeyAB/darknet/tree/3af6781de273fa01f4a535c8e40c5056e809e22f)
 
+#### Now we have to set up ```.names``` and ```.data``` files in ```data``` directory inside ```darknet```
+
+
 ## Configuring pretrained weights
 
 Put the pretrained yolo weights inside ```weights``` directory.
 
 ## Setting up the labels
 
-Put the class labels (names file) of your model in ```labels``` directory.
+Put the class labels (names file used to train YOLO in Darknet) of your model in ```labels``` directory.
 
 _In the labels directory there is already coco.names which contains the class labels of coco dataset_
