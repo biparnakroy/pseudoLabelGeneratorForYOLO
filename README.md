@@ -54,8 +54,7 @@ However if dont't have darknet built in your system then ```cd in to the darknet
  The obj.data should cotain the following:
  ```
     classes= <number of classes>
-    train  = data/train.txt
-    valid = data/test.txt
+    train  = ../train.txt
     names = data/obj.names
     backup = ../new_weights
 ```
@@ -89,7 +88,7 @@ python3 download_imgs.py --urls urls.txt --output images
 You should now have all your images inside your images folder!
 
 #### Now we have to format the names of images following this convention 
-```<name of dataset>serial no.>.jpg```
+```<name of dataset><Serial no.>.jpg```
 
 Run the follwing python command to do so.
 
@@ -114,7 +113,8 @@ Now we have to run trained YOLO model to produce the labels of the new dataset t
 -   Generating the number list corresponding to the number of images in dataset
  Run the following python command to generate number list
 
-```python3 count.py --start <staring serial no.> --end <ending serial number>
+```
+python3 count.py --start <staring serial no.> --end <ending serial number>
 ```
 Here the <starting serial no.>  is the number corresponding to the ```data1.jpg``` and  <ending serial no.> that serial no. of last image in dataset.
 
@@ -194,4 +194,13 @@ Now we have to run this script by running following commands:
   chmod +x yolo.sh
   ./yolo.sh
 ```
-After this script completes running all the labels in the YOLO format will be stored in the ```labels``` directory.
+After this script completes running all the labels in the YOLO format will be stored in the ```dataset``` directory.
+
+Thus we successfully created the dataset!!!
+
+# Retraing the model using our dataset
+
+To train the model using the new dataset run the following commands.
+
+```
+```
