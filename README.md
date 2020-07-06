@@ -116,7 +116,7 @@ Now we have to run trained YOLO model to produce the labels of the new dataset t
 ```
 python3 count.py --start <staring serial no.> --end <ending serial number>
 ```
-Here the <starting serial no.>  is the number corresponding to the ```data1.jpg``` and  <ending serial no.> that serial no. of last image in dataset.
+Here the ```<starting serial no.>```  is the number corresponding to the ```data1.jpg``` and  ```<ending serial no.>``` that serial no. of last image in dataset.
 
 This is will generate a output like this
 ```
