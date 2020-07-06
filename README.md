@@ -46,4 +46,5 @@ Put the pretrained yolo weights inside ```weights``` directory.
 ## Setting up the labels
 
 Put the class labels (names file) of your model in ```labels``` directory.
+
 _In the labels directory there is already coco.names which contains the class labels of coco dataset_
