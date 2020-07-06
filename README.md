@@ -78,8 +78,8 @@ Steps to perform:
 - Query your intended Google search
 - Scroll down through images until they become unrelated to your query or until you've passed enough images for your dataset
 - Right click and hit "Inspect" and then navigate to "Console" tab
-- One by one enter the lines from console.js into the console window and run them
-- Move urls.txt containing the urls of the images from ```Downloads``` directory to ```artificialYOLOtrainer``` directory
+- One by one enter the lines from ```console.js``` into the console window and run them
+- Move ```urls.txt``` containing the urls of the images from ```Downloads``` directory to ```artificialYOLOtrainer``` directory
 - The images will be downloaded in ```images``` directory
 - Run follwing python command as follows:
 ```
@@ -89,7 +89,7 @@ python3 download_imgs.py --urls urls.txt --output images
 You should now have all your images inside your images folder!
 
 #### Now we have to format the names of images following this convention 
-```<name of dataset>_<serial no.>.jpg```
+```<name of dataset>serial no.>.jpg```
 
 Run the follwing python command to do so.
 
@@ -97,7 +97,7 @@ Run the follwing python command to do so.
  python3 image_name.py --input images/ --output dataset/ --name data
 ```
 In place ```--name data``` pass the name of your own dataset, and be use it in place of ```data``` further on.
-After this you can see that the ```dataset``` directory will have images named as ```data_1.jpg, data_2.jpg ......```
+After this you can see that the ```dataset``` directory will have images named as ```data1.jpg, data2.jpg ......```
 
 
 ### Code to slice frames from video file.
@@ -107,4 +107,4 @@ Run the follwing python command to do so.
  python3 frame.py --input <video file> --output dataset/ --interval <int> --name data 
 ```
 Here ```--interval``` is the interval of frame slicing in seconds , ```--name``` flag is used for the naming convention
-After this we will see ```dataset``` directory has images named as ```data_1.jpg, data_2.jpg ......```
+After this we will see ```dataset``` directory has images named as ```data1.jpg, data2.jpg ......```
