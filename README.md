@@ -123,3 +123,22 @@ This is will generate a output like this
 1 2 3 4 5 6 . . . . . .
 ```
 copy this list.
+
+- Configing darknet.sh
+Open ```darknet.sh```
+```
+cd darknet
+for i in   <num list>
+do
+  ./darknet detector test  data/obj.data  ../cfg/<cfg file>                ../weights/<weight file>                -ext_output -dont_show   ../dataset/data$i.jpg  > ../dataset/data$i.txt
+done
+```
+Here is place of ```<num list>``` paste the list of numbers generated from ```count.py```, in place of ```<cfg file>``` put the name of the config file which is place in ```cfg``` directory, in place of ```<weight file``` put the name of the pretrained YOLO weights placed inside ```weights``` directory.
+
+Now run the following commands (inside the parent directory):
+
+```
+chmod +x darknet.sh
+./darknet.sh
+```
+
