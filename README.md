@@ -210,9 +210,4 @@ Note : change ```train=../train.txt```  in ```obj.data``` if not already done.
 You should find the checkpoints of the weights being stored in the ```new_weights``` directory.
 
 # Cite
-@misc{articialYOLOtrainer,
-  author = {Biparnak Roy},
-  title = {Articial YOLO Trainer},
-  year = {2020},
-  howpublished = {\url{https://github.com/biparnakroy/artificialYOLOtrainer}}
-}
+Biparnak Roy. Artifical YOLO Trainer. https://github.com/biparnakroy.artificialYOLOtrainer, 2020
