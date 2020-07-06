@@ -61,7 +61,7 @@ However if dont't have darknet built in your system then ```cd in to the darknet
 ```
 The ```train.txt``` and ```text.txt``` contains the the paths of images for training and test respectively.They will be configured when we are done generating the labels for our dataset and ready to retrain the model.
 
-The ```backup= ../new_weights``` is basically to store the checkpoints of the weights generated on further traing. At this stage the new_weights directory should be empty. _(even if you have darknet prebuilt then set the backup path to ../new_weights)_
+The ```backup= ../new_weights``` is basically to store the checkpoints of the weights generated on further traing. At this stage the new_weights directory should be empty. _*(even if you have darknet prebuilt then set the backup path to ../new_weights)*_
 
 
 
