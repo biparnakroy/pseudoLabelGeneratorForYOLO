@@ -200,6 +200,8 @@ To train the model using the new dataset run the following commands.
 ```
 python3 generate_train.py
 ```
+Note : change ```train=../train.txt```  in ```obj.data``` if not already done.
+
 - To start training
 
 ```
