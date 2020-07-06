@@ -210,4 +210,6 @@ Note : change ```train=../train.txt```  in ```obj.data``` if not already done.
 You should find the checkpoints of the weights being stored in the ```new_weights``` directory.
 
 # Citation
+If you artificialYOLOtraininer in your work please cite:
+
 Biparnak Roy. Artifical YOLO Trainer. https://github.com/biparnakroy.artificialYOLOtrainer, 2020.
