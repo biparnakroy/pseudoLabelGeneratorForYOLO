@@ -33,7 +33,7 @@ pip install argparse
 
 ## Building Darknet
 
-If you already have darknet built in your system ***(which is mostlikey the case because the main use of **artficialYOLOtrainer** to generate datasets using pretrained YOLO weights for further training of the model )***  then the following steps are not required.
+If you already have darknet built in your system _(which is mostlikey the case because the main use of **artficialYOLOtrainer** to generate datasets using pretrained YOLO weights for further training of the model)_ then the following steps are not required.
 
 **Note**: Make sure you have your ```darknet``` (prebuilt) directory inside the ```artificialYOLOtrainer``` directory.
 
@@ -46,4 +46,4 @@ Put the pretrained yolo weights inside ```weights``` directory.
 ## Setting up the labels
 
 Put the class labels (names file) of your model in ```labels``` directory.
-***In the labels directory there is already coco.names which contains the class labels of coco dataset***
+_In the labels directory there is already coco.names which contains the class labels of coco dataset_
