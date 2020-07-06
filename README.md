@@ -111,3 +111,15 @@ After this we will see ```dataset``` directory has images named as ```data1.jpg,
 
 # Running Pretrained YOLO model on The new dataset
 Now we have to run trained YOLO model to produce the labels of the new dataset that was created in ```dataset``` directory.
+-   Generating the number list corresponding to the number of images in dataset
+ Run the following python command to generate number list
+
+```python3 count.py --start <staring serial no.> --end <ending serial number>
+```
+Here the <starting serial no.>  is the number corresponding to the ```data1.jpg``` and  <ending serial no.> that serial no. of last image in dataset.
+
+This is will generate a output like this
+```
+1 2 3 4 5 6 . . . . . .
+```
+copy this list.
