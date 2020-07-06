@@ -12,7 +12,7 @@ If you already have the darknet built in your system then ommit ```--recurse-sub
 
 ### OS Enviornment
 
-**artificalYOLOtrainer** has native support for *linux OS (ubuntu 20.04)* 
+**artificalYOLOtrainer** has native support for *linux OS (ubuntu 20.04) with python 3.8.2* 
 
 ### Libraries
 
@@ -61,7 +61,7 @@ However if dont't have darknet built in your system then ```cd in to the darknet
 ```
 The ```train.txt``` and ```text.txt``` contains the the paths of images for training and test respectively.They will be configured when we are done generating the labels for our dataset and ready to retrain the model.
 
-The ```backup= ../new_weights``` is basically to store the checkpoints of the weights generated on further traing. At this stage the new_weights directory should be empty.
+The ```backup= ../new_weights``` is basically to store the checkpoints of the weights generated on further traing. At this stage the new_weights directory should be empty. (even if you have darknet prebuilt then set the backup path to ../new_weights)
 
 
 
@@ -72,6 +72,6 @@ Put the pretrained yolo weights inside ```weights``` directory.
 
 ## Setting up the labels
 
-Put the class labels (names file used to train YOLO in Darknet) of your model in ```labels``` directory.
+Put the class labels (obj.names file used to train YOLO in Darknet) of your model in ```labels``` directory.
 
 _In the labels directory there is already coco.names which contains the class labels of coco dataset_
