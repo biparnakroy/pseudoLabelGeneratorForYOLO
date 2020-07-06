@@ -108,3 +108,6 @@ Run the follwing python command to do so.
 ```
 Here ```--interval``` is the interval of frame slicing in seconds , ```--name``` flag is used for the naming convention
 After this we will see ```dataset``` directory has images named as ```data1.jpg, data2.jpg ......```
+
+# Running Pretrained YOLO model on The new dataset
+Now we have to run trained YOLO model to produce the labels of the new dataset that was created in ```dataset``` directory.
