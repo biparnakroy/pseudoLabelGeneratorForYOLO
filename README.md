@@ -180,10 +180,9 @@ bag:    48%	(left_x:  597   top_y:  212   width:   20   height:   25)
 The detections stored in the text file need to be converted to the YOLO label format for this we have to configure ```yolo.sh```
 
 ```
-mkdir labels
 for i in  <num list>
 do
-  python3 yolo.py --image dataset/data$i.jpg --text dataset/data$i.txt > labels/mox$i.txt
+  python3 yolo.py --image dataset/data$i.jpg --text dataset/data$i.txt > dataset/data$i.txt
 done
 
 ```
