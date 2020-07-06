@@ -64,17 +64,9 @@ The ```train.txt``` and ```text.txt``` contains the the paths of images for trai
 The ```backup= ../new_weights``` is basically to store the checkpoints of the weights generated on further traing. At this stage the new_weights directory should be empty. **(even if you have darknet prebuilt then set the backup path to ../new_weights)**
 
 
-
-
 ## Configuring pretrained weights
 
 Put the pretrained yolo weights inside ```weights``` directory.
-
-## Setting up the labels
-
-Put the class labels (obj.names file used to train YOLO in Darknet) of your model in ```labels``` directory.
-
-_In the labels directory there is already coco.names which contains the class labels of coco dataset_
 
 ## Gathering images for the new Dataset
 The particular use case suggests that we create a custom dataset. This can be done by either mass dowloading images from internet or by slicing frames from video files.
@@ -105,3 +97,4 @@ Run the follwing python command to do so.
  python3 image_name.py --input images/ --output dataset/ --name data
 ```
 In place ```--name data``` pass the name of your own dataset, and be use it in place of ```data``` further on.
+After this you can see that the dataset directory will have images named as ```data_1.jpg, data_2.jpg ......``` 
