@@ -16,7 +16,7 @@ If you already have the darknet built in your system then ommit ```--recurse-sub
 
 ### Libraries
 
-There are some library dependencies : opencv-python, numpy, math, argparse. 
+There are some library dependencies : opencv-python, numpy, math, argparse, imutils, requests. 
 
 You can install these libraries by executing the following command **(recomended)**
 
@@ -75,3 +75,21 @@ Put the pretrained yolo weights inside ```weights``` directory.
 Put the class labels (obj.names file used to train YOLO in Darknet) of your model in ```labels``` directory.
 
 _In the labels directory there is already coco.names which contains the class labels of coco dataset_
+
+## Gathering images for the new Dataset
+
+### Code to mass download images from Google Images using JavaScript Console Window and python script.
+
+Steps to perform:
+- Query your intended Google search
+- Scroll down through images until they become unrelated to your query or until you've passed enough images for your dataset
+- Right click and hit "Inspect" and then navigate to "Console" tab
+- One by one enter the lines from console.js into the console window and run them
+- Move urls.txt from ```Downloads``` directory to ```artificialYOLOtrainer``` directory
+- The images will be downloaded in ```images``` directory
+- Run follwing two python commands as follows:
+```
+python download_imgs.py --urls urls.txt --output images
+```
+
+You should now have all your images inside your images folder!
