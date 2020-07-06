@@ -97,4 +97,14 @@ Run the follwing python command to do so.
  python3 image_name.py --input images/ --output dataset/ --name data
 ```
 In place ```--name data``` pass the name of your own dataset, and be use it in place of ```data``` further on.
-After this you can see that the dataset directory will have images named as ```data_1.jpg, data_2.jpg ......``` 
+After this you can see that the ```dataset``` directory will have images named as ```data_1.jpg, data_2.jpg ......```
+
+
+### Code to slice frames from video file.
+Run the follwing python command to do so.
+
+```
+ python3 frame.py --input <video file> --output dataset/ --interval <int> --name data 
+```
+Here ```--interval``` is the interval of frame slicing in seconds , ```--name``` flag is used for the naming convention
+After this we will see ```dataset``` directory has images named as ```data_1.jpg, data_2.jpg ......```
