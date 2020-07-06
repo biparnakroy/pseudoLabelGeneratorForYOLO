@@ -18,8 +18,15 @@ If you already have the darknet built in your system then ommit ```--recurse-sub
 
 There are some library dependencies : opencv-python, numpy, math, argparse. 
 
-You can install these libraries by executing the following command0 **(recomended)**
+You can install these libraries by executing the following command **(recomended)**
 
 ```
 pip install -r requirements.txt
+```
+else you can also use:
+```
+pip install opencv-python
+pip install numpy
+pip install math
+pip install argparse
 ```
