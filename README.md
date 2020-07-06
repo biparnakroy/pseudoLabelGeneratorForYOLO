@@ -208,3 +208,11 @@ Note : change ```train=../train.txt```  in ```obj.data``` if not already done.
 ./darknet detector train data/obj.data ../cfg/<your cfg file> ../weights/<your pretrained weight file>
 ```
 You should find the checkpoints of the weights being stored in the ```new_weights``` directory.
+
+# Cite
+@misc{articialYOLOtrainer,
+  author = {Biparnak Roy},
+  title = {Articial YOLO Trainer},
+  year = {2020},
+  howpublished = {\url{https://github.com/biparnakroy/artificialYOLOtrainer}}
+}
