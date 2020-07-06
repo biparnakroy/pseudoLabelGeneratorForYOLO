@@ -30,3 +30,12 @@ pip install numpy
 pip install math
 pip install argparse
 ```
+
+# Building Darknet
+
+If you already have darknet built in your system ***(which is mostlikey the case because the main use of **artficialYOLOtrainer** to generate datasets using pretrained YOLO weights for further training of the model )***  then the following steps are not required.
+### Note: Make sure you have your ```darknet``` (prebuilt) directory inside the ```artificialYOLOtrainer``` directory.
+
+However if dont't have darknet built in your system then ```cd in to the darknet directory``` and build darknet following [AlexyAB's guide](https://github.com/AlexeyAB/darknet/tree/3af6781de273fa01f4a535c8e40c5056e809e22f)
+
+
