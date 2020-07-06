@@ -1,4 +1,4 @@
-# artificialYOLOtrainer
+# artificialYOLOtrainer : Semi supervised learning platform for YOLO
 
 Clone the entire repository with the Darknet submodule by executing the following command:
 
