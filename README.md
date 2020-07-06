@@ -91,10 +91,17 @@ Steps to perform:
 - The images will be downloaded in ```images``` directory
 - Run follwing python command as follows:
 ```
-python download_imgs.py --urls urls.txt --output images
+python3 download_imgs.py --urls urls.txt --output images
 ```
 
 You should now have all your images inside your images folder!
 
-#### Now we have to format the names of images following this convention ```<name of dataset>_<serial no.>.jpg```
+#### Now we have to format the names of images following this convention 
+```<name of dataset>_<serial no.>.jpg```
 
+Run the follwing python command to do so.
+
+```
+ python3 image_name.py --input images/ --output dataset/ --name data
+```
+In place ```--name data``` pass the name of your own dataset, and be use it in place of ```data``` further on.
