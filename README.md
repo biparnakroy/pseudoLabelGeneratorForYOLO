@@ -79,7 +79,7 @@ _In the labels directory there is already coco.names which contains the class la
 ## Gathering images for the new Dataset
 
 ### Code to mass download images from Google Images using JavaScript Console Window and python script.
-
+This guide is based on [The AI Guys's tutorial]{https://github.com/theAIGuysCode/Download-Google-Images}
 Steps to perform:
 - Query your intended Google search
 - Scroll down through images until they become unrelated to your query or until you've passed enough images for your dataset
