@@ -13,3 +13,13 @@ If you already have the darknet built in your system then ommit ```--recurse-sub
 ### OS Enviornment
 
 **artificalYOLOtrainer** has native support for *linux OS (ubuntu 20.04)* 
+
+### Libraries
+
+There are some library dependencies : opencv-python, numpy, math, argparse. 
+
+You can install these libraries by executing the following command0 **(recomended)**
+
+```
+pip install -r requirements.txt
+```
