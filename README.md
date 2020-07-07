@@ -79,6 +79,8 @@ python3 download_imgs.py --urls urls.txt --output images
 
 You should now have all your images inside your images folder!
 
+Note: you can also use [google-images-download](https://github.com/hardikvasa/google-images-download), ultimately we just need a whole lot of images in ```images``` directory.
+
 #### Now we have to format the names of images following this convention 
 ```<name of dataset><Serial no.>.jpg```
 
