@@ -1,18 +1,18 @@
-# artificialYOLOtrainer
+# pseudoLabelGeneratorForYOLO
 Clone the entire repository with the Darknet submodule by executing the following command:
 
 ``` 
-git clone --recurse-submodules https://github.com/biparnakroy/pseudoLabelGenertorForYOLO.git
-cd pseudoLabelGenertorForYOLO
+git clone --recurse-submodules https://github.com/biparnakroy/pseudoLabelGeneratorForYOLO.git
+cd pseudoLabelGeneratorForYOLO
 ```
 
-If you already have the darknet built in your system then ommit ```--recurse-submodules```  and put your ```darknet```  directory inside the ```pseudoLabelGenertorForYOLO``` directory
+If you already have the darknet built in your system then ommit ```--recurse-submodules```  and put your ```darknet```  directory inside the ```pseudoLabelGeneratorForYOLO``` directory
 
 ## Dependencies
 
 ### OS Enviornment
 
-**pseudoLabelGenertorForYOLO** has native support for *linux OS (ubuntu 20.04) with python 3.8.2* 
+**pseudoLabelGeneratorForYOLO** has native support for *linux OS (ubuntu 20.04) with python 3.8.2* 
 
 ### Libraries
 
@@ -26,9 +26,9 @@ pip install -r requirements.txt
 
 ## Building Darknet
 
-If you already have darknet built in your system _(which is mostlikey the case because the main use of **pseudoLabelGenertorForYOLO** to generate datasets using pretrained YOLO weights for further training of the model)_ then the following steps are not required.
+If you already have darknet built in your system _(which is mostlikey the case because the main use of **pseudoLabelGeneratorForYOLO** to generate datasets using pretrained YOLO weights for further training of the model)_ then the following steps are not required.
 
-**Note**: Make sure you have your ```darknet``` (prebuilt) directory inside the ```pseudoLabelGenertorForYOLO``` directory.
+**Note**: Make sure you have your ```darknet``` (prebuilt) directory inside the ```pseudoLabelGeneratorForYOLO``` directory.
 
 However if dont't have darknet built in your system then ```cd in to the darknet directory``` and build darknet following [AlexyAB's guide](https://github.com/AlexeyAB/darknet/tree/3af6781de273fa01f4a535c8e40c5056e809e22f)
 
@@ -215,4 +215,4 @@ You should find the checkpoints of the weights being stored in the ```new_weight
 # Citation
 If you artificialYOLOtraininer in your work please cite:
 
-Biparnak Roy. Artifical YOLO Trainer. https://github.com/biparnakroy/pseudoLabelGenertorForYOLO, 2020.
+Biparnak Roy. Artifical YOLO Trainer. https://github.com/biparnakroy/pseudoLabelGeneratorForYOLO, 2020.
