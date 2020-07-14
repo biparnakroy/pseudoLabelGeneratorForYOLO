@@ -215,4 +215,4 @@ You should find the checkpoints of the weights being stored in the ```new_weight
 # Citation
 If you artificialYOLOtraininer in your work please cite:
 
-Biparnak Roy. Artifical YOLO Trainer. https://github.com/biparnakroy.artificialYOLOtrainer, 2020.
+Biparnak Roy. Artifical YOLO Trainer. https://github.com/biparnakroy/pseudoLabelGenertorForYOLO, 2020.
