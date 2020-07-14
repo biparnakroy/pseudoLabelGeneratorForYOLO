@@ -12,7 +12,7 @@ If you already have the darknet built in your system then ommit ```--recurse-sub
 
 ### OS Enviornment
 
-**artificalYOLOtrainer** has native support for *linux OS (ubuntu 20.04) with python 3.8.2* 
+**pseudoLabelGenertorForYOLO** has native support for *linux OS (ubuntu 20.04) with python 3.8.2* 
 
 ### Libraries
 
@@ -26,9 +26,9 @@ pip install -r requirements.txt
 
 ## Building Darknet
 
-If you already have darknet built in your system _(which is mostlikey the case because the main use of **artficialYOLOtrainer** to generate datasets using pretrained YOLO weights for further training of the model)_ then the following steps are not required.
+If you already have darknet built in your system _(which is mostlikey the case because the main use of **pseudoLabelGenertorForYOLO** to generate datasets using pretrained YOLO weights for further training of the model)_ then the following steps are not required.
 
-**Note**: Make sure you have your ```darknet``` (prebuilt) directory inside the ```artificialYOLOtrainer``` directory.
+**Note**: Make sure you have your ```darknet``` (prebuilt) directory inside the ```pseudoLabelGenertorForYOLO``` directory.
 
 However if dont't have darknet built in your system then ```cd in to the darknet directory``` and build darknet following [AlexyAB's guide](https://github.com/AlexeyAB/darknet/tree/3af6781de273fa01f4a535c8e40c5056e809e22f)
 
@@ -71,7 +71,7 @@ Steps to perform:
 - Scroll down through images until they become unrelated to your query or until you've passed enough images for your dataset
 - Right click and hit "Inspect" and then navigate to "Console" tab
 - One by one enter the lines from ```console.js``` into the console window and run them
-- Move ```urls.txt``` containing the urls of the images from ```Downloads``` directory to ```artificialYOLOtrainer``` directory
+- Move ```urls.txt``` containing the urls of the images from ```Downloads``` directory to ```pseudoLabelGenertorForYOLO``` directory
 - The images will be downloaded in ```images``` directory
 - Run follwing python command as follows:
 ```
