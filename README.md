@@ -218,4 +218,4 @@ You should find the checkpoints of the weights being stored in the ```new_weight
 # Citation
 If you pseudoLabelGeneratorForYOLO in your work please cite:
 
-Biparnak Roy. Pseud Label Generator For YOLO. https://github.com/biparnakroy/pseudoLabelGeneratorForYOLO, 2020.
+Biparnak Roy. Pseudo Label Generator For YOLO. https://github.com/biparnakroy/pseudoLabelGeneratorForYOLO, 2020.
