@@ -1,7 +1,7 @@
 # pseudoLabelGeneratorForYOLO
 ![Screenshot](logo.jpg)
 
-medium article:https://medium.com/@sb.jaduniv/self-training-yolov4-63665b6915ee?source=friends_link&sk=a25709133ea94d1978b5b0161d25d21c
+medium article: ![link](https://medium.com/@sb.jaduniv/self-training-yolov4-63665b6915ee?source=friends_link&sk=a25709133ea94d1978b5b0161d25d21c)
 
 Clone the entire repository with the Darknet submodule by executing the following command:
 
